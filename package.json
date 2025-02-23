@@ -1,8 +1,8 @@
 {
-  "name": "portfolio-2view",
+  "name": "portfolio-wafermelon",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://2view.xyz",
+  "homepage": "https://xuko.xyz",
   "dependencies": {
     "@react-three/fiber": "^8.17.10",
     "@testing-library/jest-dom": "^5.17.0",
@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
-    "gh-pages": "^6.0.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17"
   }
