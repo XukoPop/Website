@@ -160,35 +160,42 @@ const PortfolioPage = () => {
                 <Boxes className="mr-2" /> Featured Projects
               </h2>
               <div className="space-y-8">
-                {/* MOON Discord Bot */}
+                {/* VaultCore */}
                 <div className="glass-card p-6 rounded-lg">
                   <div className="mb-6">
-                  <h3 className="text-xl font-semibold text-white mb-3">MOON - Discord Community Bot</h3>
-                  <p className="text-zinc-300">A custom Discord bot with unique features including activity tracking, role management, and user engagement systems. Built with modern web technologies and sleek animations.</p>
+                    <h3 className="text-xl font-semibold text-white mb-3">VaultCore - Secure Storage Solution</h3>
+                    <p className="text-zinc-300">A secure digital storage platform with advanced encryption and user-friendly interface. Designed for sensitive data management with multi-factor authentication.</p>
                   </div>
                   
                   <div className="relative rounded-lg overflow-hidden mb-6">
-                    <video 
+                    <img 
+                      src="/VaultCore.png"
+                      alt="VaultCore interface screenshot" 
                       className="w-full h-auto rounded-lg"
-                      controls
-                      muted
-                      loop
-                    >
-                      <source src="/Desktop 2024.11.15 - 11.39.04.02.mp4" type="video/mp4" />
-                    </video>
+                    />
                   </div>
 
                   <div className="space-y-4">
                     <div>
                       <p className="text-sm text-zinc-400 mb-2">Technologies used:</p>
                       <div className="flex flex-wrap gap-2">
-                        {['React', 'TailwindCSS', 'Discord.js', 'Node.js'].map((tech, i) => (
+                        {['React', 'TailwindCSS', 'Node.js', 'Encryption API'].map((tech, i) => (
                           <span key={i} className="px-3 py-1 bg-zinc-800/50 rounded-full text-sm text-zinc-300">
                             {tech}
                           </span>
                         ))}
                       </div>
                     </div>
+                    <motion.a 
+                      href="https://vaultcore.online"
+                      whileHover={{ x: 5 }}
+                      transition={{ duration: 0.2 }}
+                      className="inline-flex items-center text-white hover:text-green-400"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Visit Website →
+                    </motion.a>
                   </div>
                 </div>
 
@@ -230,6 +237,38 @@ const PortfolioPage = () => {
                       rel="noopener noreferrer"
                     >
                     </motion.a>
+                  </div>
+                </div>
+
+                {/* MOON Discord Bot */}
+                <div className="glass-card p-6 rounded-lg">
+                  <div className="mb-6">
+                  <h3 className="text-xl font-semibold text-white mb-3">MOON - Discord Community Bot</h3>
+                  <p className="text-zinc-300">A custom Discord bot with unique features including activity tracking, role management, and user engagement systems. Built with modern web technologies and sleek animations.</p>
+                  </div>
+                  
+                  <div className="relative rounded-lg overflow-hidden mb-6">
+                    <video 
+                      className="w-full h-auto rounded-lg"
+                      controls
+                      muted
+                      loop
+                    >
+                      <source src="/Desktop 2024.11.15 - 11.39.04.02.mp4" type="video/mp4" />
+                    </video>
+                  </div>
+
+                  <div className="space-y-4">
+                    <div>
+                      <p className="text-sm text-zinc-400 mb-2">Technologies used:</p>
+                      <div className="flex flex-wrap gap-2">
+                        {['React', 'TailwindCSS', 'Discord.js', 'Node.js'].map((tech, i) => (
+                          <span key={i} className="px-3 py-1 bg-zinc-800/50 rounded-full text-sm text-zinc-300">
+                            {tech}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -301,8 +340,8 @@ const GamingPage = () => {
               {[
               { text: ' Keyboard 1: ', link: 'https://a.co/d/bDNBFwk', label: 'EPOMAKER x AULA F75 Gasket' },
               { text: ' Keyboard 2: ', link: 'https://a.co/d/co5mGmA', label: 'E-YOOSO HZ61 Rapid Trigger' },
-              { text: ' Mouse 1: ', link: 'https://a.co/d/3AOaTDp', label: 'Logitech Superlight 2 (8kHz)' },
-              { text: ' Mouse 2: ', link: 'https://a.co/d/4zdHiyh', label: 'MCHOSE AX5 (4kHz)' },
+              { text: ' Mouse 1: ', link: 'https://a.co/d/3AOaTDp', label: 'Logitech Superlight 2' },
+              { text: ' Mouse 2: ', link: 'https://a.co/d/4zdHiyh', label: 'MCHOSE AX5' },
               { text: 'Audio: ', link: 'https://a.co/d/bvfWXdN', label: 'Linsoul KZ ZS10 Pro' },
               { text: 'Mic: ', link: 'https://a.co/d/hT6DNdg', label: 'HyperX Quadcast + FIFINE Low Profile Boom Arm' },
               { text: 'Display: ', link: '#', label: 'Triple KOORUI Setup (1 Vertical, 2 Horizontal)' }
