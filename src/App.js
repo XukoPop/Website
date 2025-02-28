@@ -186,16 +186,6 @@ const PortfolioPage = () => {
                         ))}
                       </div>
                     </div>
-                    <motion.a 
-                      href="https://vaultcore.online"
-                      whileHover={{ x: 5 }}
-                      transition={{ duration: 0.2 }}
-                      className="inline-flex items-center text-white hover:text-green-400"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Visit Website →
-                    </motion.a>
                   </div>
                 </div>
 
